@@ -1,0 +1,7 @@
+Agenda. 
+
+Dia 1: sobre a lingaugem, passos com go
+
+Dia 2: Performance e multithreading
+
+dia 3: HTTP, API's e deployment 
