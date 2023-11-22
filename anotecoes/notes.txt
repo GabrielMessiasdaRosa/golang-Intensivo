@@ -1,0 +1,38 @@
+
+## Dia 1: sobre a lingaugem, primeiros passos com go
+
+### Sobre a linguagem
+
+features do go; 
+
+- compilada
+- tipagem estatica
+- garbage collector
+- paralelismo
+- multiplataforma
+- open source
+- sintaxe simples
+- comunidade ativa
+- ferramentas nativas
+- performance
+- segurança
+- simplicidade
+- legibilidade
+
+Go foi criada pela google em 2009, com o objetivo de ser uma linguagem de programação simples, segura e de alta performance.
+No seu desenvolvimento temos a participação de Rob Pike, Ken Thompson e Robert Griesemer, que são os criadores da linguagem C e Unix. 
+
+## Dia 2: Performance e multithreading
+
+### Performance
+
+Go é uma linguagem compilada, o que significa que o código fonte é transformado em código de máquina, o que torna a execução mais rápida.
+
+### Multithreading
+
+Go possui uma sintaxe simples para trabalhar com multithreading, o que torna a linguagem mais performática.
+
+go routines: são funções que são executadas de forma assíncrona, ou seja, não bloqueiam a execução do programa.
+é possivel criar uma go routine utilizando a palavra chave go antes da chamada da função.
+
+```go

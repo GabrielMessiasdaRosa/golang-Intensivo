@@ -1,6 +1,6 @@
 Agenda. 
 
-Dia 1: sobre a lingaugem, passos com go
+Dia 1: sobre a lingaugem, primeiros passos com go
 
 Dia 2: Performance e multithreading
 
