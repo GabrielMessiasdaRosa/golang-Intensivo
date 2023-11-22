@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"github.com/GabrielMessiasdaRosa/golang-intensivo/internal/infra/database"
 	"github.com/GabrielMessiasdaRosa/golang-intensivo/internal/usecase"
+	uuid "github.com/google/uuid"
 	_ "github.com/mattn/go-sqlite3"
 )
 
@@ -18,7 +19,7 @@ func main() {
 	useCase := usecase.CalculateFinalPriceFactory(orderRepository)
 
 	input := usecase.OrderInput{
-		ID: "123",
+		ID: uuid.New().String(),
 		Price: 14,
 		Tax: 1,
 	}
