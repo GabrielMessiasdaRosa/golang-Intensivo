@@ -8,6 +8,7 @@ features do go;
 - compilada
 - tipagem estatica
 - garbage collector
+- concorrência
 - paralelismo
 - multiplataforma
 - open source
